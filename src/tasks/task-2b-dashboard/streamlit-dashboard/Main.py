@@ -266,6 +266,7 @@ fig = px.choropleth_mapbox(
     'price/sqm_max': ':,.2f'
   }
   )
+
 fig.update_layout(
   mapbox_center={'lat': 48.8566, 'lon': 2.3522},
   margin={'r':0,'t':0,'l':0,'b':0}
@@ -324,6 +325,7 @@ st.write("""
     # price_column = 'Cost' if rent_or_buy == 'Buy' else 'Rent'
     # fig_hist = px.histogram(filtered_df, x=price_column, nbins=20, title='Price Distribution')
     # st.plotly_chart(fig_hist)
+    
 st.sidebar.write("""
     #### Note
     - :warning: This app is a helpful tool to complement your search, but it's not a definitive guide for choosing the best property listings for your needs.

@@ -4,3 +4,4 @@ numpy==1.26.3
 pandas==2.0.3
 plotly==5.15.0
 geojson==3.1.0
+streamlit-theme==0.58.0
